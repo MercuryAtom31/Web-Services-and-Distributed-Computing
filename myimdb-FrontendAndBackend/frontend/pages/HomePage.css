@@ -1,0 +1,55 @@
+/* Roboto is Material's default font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-family:monospace;
+}
+
+.increment-button {
+    text-align: center;
+    margin: 10px;
+    padding: 2px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor:vertical-text;
+}
+
+.decrement-button {
+    text-align: center;
+    margin: 10px;
+    padding: 2px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor:pointer;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10x 60px;
+
+}
+
+button:hover{
+    background-color: gray;
+}
+
+button:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px lightsalmon;
+
+}
+
+button:active{
+    background-color: blue;
+    border-color: white;
+    color: purple;
+}
